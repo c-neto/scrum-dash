@@ -1,0 +1,7 @@
+pandas
+dash
+dash_bootstrap_components
+dash_bootstrap_templates
+dynaconf
+tabulate
+numpy

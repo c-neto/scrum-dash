@@ -1,0 +1,26 @@
+path_output_reports_path: "/tmp/reports/source-issue-reports.csv"
+
+
+jira:
+  email:
+  auth_token:
+  domain:
+
+
+jql:
+  issues_planned: |
+    issuetype NOT IN (Sub-task) AND
+    project = INF AND
+    sprint = "Sprint {sprint}" AND
+    not in hasComments("Issue Added After Sprint Started: Sprint {sprint}")
+  issues_unplanned: |
+    issuetype NOT IN (Sub-task) AND
+    project = INF AND
+    sprint = "Sprint {sprint}" AND
+    hasComments("Issue Added After Sprint Started: Sprint {sprint}")
+
+issue_custom_field:
+ team:
+   api_path: fields.customfield_000001[0].value
+ area:
+   api_path: fields.customfield_000002[0].value
