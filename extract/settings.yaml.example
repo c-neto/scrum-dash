@@ -1,12 +1,6 @@
 path_output_reports_path: "/tmp/reports/source-issue-reports.csv"
 
 
-jira:
-  email:
-  auth_token:
-  domain:
-
-
 jql:
   issues_planned: |
     issuetype NOT IN (Sub-task) AND
