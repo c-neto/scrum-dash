@@ -1,0 +1,8 @@
+reports_directory:
+  area: /tmp/reports/area.csv
+  assignee: /tmp/reports/assignee.csv
+  epic_link_summary: /tmp/reports/epic_link_summary.csv
+  sprint: /tmp/reports/sprints.csv
+  team: /tmp/reports/team.csv
+  mapping_area_by_team: /tmp/reports/mapping-area-by-team.csv
+  mapping_assignee_by_team: /tmp/reports/mapping-assignee-by-team.csv
